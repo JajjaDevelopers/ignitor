@@ -41,4 +41,29 @@ class Validation extends BaseConfig
     // --------------------------------------------------------------------
     // Rules
     // --------------------------------------------------------------------
+    public $loginRules=[];
+
+    public function __construct(){
+        $this->setLoginRules();
+    }
+  
+    //setting user Rules
+    public function setLoginRules():void
+    {
+        $this->loginRules =[
+            "username" => [
+                "rules" => "required",
+                "errors" => [
+                    "required" => "Please provide a user name",
+                ]
+            ],
+            "password" => [
+                "rules" => "required|",
+                "errors" => [
+                    "required" => "Please provide your password.",
+                ]
+            ],
+            
+        ];
+    }
 }

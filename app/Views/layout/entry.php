@@ -5,10 +5,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login</title>
-  <link rel="stylesheet" href="<?=base_url("assets/bootstrap/css/bootstrap.min.css")?>">
+  <link rel="stylesheet" href="<?=base_url("assets/dashboard/vendor/bootstrap/css/bootstrap.min.css")?>">
+  <link href="<?=base_url("assets/toastr/toastr.css")?>" rel="stylesheet">
 </head>
 <body>
   <?=$this->renderSection("login");?>
-  <script src="<?=base_url("assets/bootstrap/js/bootstrap.min.js")?>"></script>
+  <script src="<?=base_url("assets/dashboard/vendor/bootstrap/js/bootstrap.bundle.min.js")?>"></script>
+  <script src="<?=base_url("assets/jquery-3.6.0.min.js")?>"></script>
+  <script src="<?=base_url("assets/toastr/toastr.js")?>"></script>
+  <?=$this->renderSection("script")?>
 </body>
 </html>
