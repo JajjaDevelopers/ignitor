@@ -77,7 +77,7 @@
             };
           },
           error: function(jqXHR){
-            console.log(jqXHR.status);
+            // console.log(jqXHR.status);
             const errorResponse = JSON.parse(jqXHR.responseText);
             toastr.error(errorResponse.message);
             console.log(errorResponse.message);

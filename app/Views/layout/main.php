@@ -12,14 +12,14 @@
   <link href="https://fonts.gstatic.com" rel="preconnect">
   <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"> -->
   <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"> -->
-  <!-- Vendor CSS Files -->
-  <link href="<?=base_url("assets/dashboard/vendor/bootstrap/css/bootstrap.min.css")?>" rel="stylesheet">
-  <link href="<?=base_url("assets/dashboard/vendor/bootstrap-icons/bootstrap-icons.css")?>" rel="stylesheet">
-  <link href="<?=base_url("assets/dashboard/vendor/boxicons/css/boxicons.min.css")?>" rel="stylesheet">
-  <!-- <link href="../assets/dashboard/vendor/quill/quill.snow.css" rel="stylesheet">
-  <link href="../assets/dashboard/vendor/quill/quill.bubble.css" rel="stylesheet">
-  <link href="../assets/dashboard/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="../assets/dashboard/vendor/simple-datatables/style.css" rel="stylesheet"> -->
+  <!-- vend CSS Files -->
+  <link href="<?=base_url("assets/dashboard/vend/bootstrap/css/bootstrap.min.css")?>" rel="stylesheet">
+  <link href="<?=base_url("assets/dashboard/vend/bootstrap-icons/bootstrap-icons.css")?>" rel="stylesheet">
+  <link href="<?=base_url("assets/dashboard/vend/boxicons/css/boxicons.min.css")?>" rel="stylesheet">
+  <!-- <link href="../assets/dashboard/vend/quill/quill.snow.css" rel="stylesheet">
+  <link href="../assets/dashboard/vend/quill/quill.bubble.css" rel="stylesheet">
+  <link href="../assets/dashboard/vend/remixicon/remixicon.css" rel="stylesheet">
+  <link href="../assets/dashboard/vend/simple-datatables/style.css" rel="stylesheet"> -->
   <!-- Template Main CSS File -->
   <link rel="stylesheet" href="<?=base_url("assets/css/main.css")?>">
   <link href="<?=base_url("assets/dashboard/css/style.css")?>" rel="stylesheet">
@@ -547,8 +547,8 @@ body {
 <script src="../assets/js/time.js"></script>
 <script src="../assets/js/sidebar.js" type="module"></script> -->
 
-<!-- Vendor JS Files -->
-<script src="<?=base_url("assets/dashboard/vendor/bootstrap/js/bootstrap.bundle.min.js")?>"></script>
+<!-- vend JS Files -->
+<script src="<?=base_url("assets/dashboard/vend/bootstrap/js/bootstrap.bundle.min.js")?>"></script>
 <!-- Template Main JS File -->
 <script src="<?=base_url("assets/dashboard/js/main.js")?>"></script>
 <!--jquery-->
