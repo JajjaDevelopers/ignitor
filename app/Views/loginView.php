@@ -9,7 +9,7 @@
     </div>
     <div class="card-body">
   <?=form_open();?>
-  <div class="row">
+  <div class="row"> 
     <div class="col-md-12 justify-content-center">
       <div class="form-floating ">
         <input type="text" name="username" class="form-control name" value="<?=set_value("username")?>">
@@ -67,8 +67,9 @@
           "username": $(".name").val(),
           "password": $(".pass").val(),
         };
+        
         $.ajax({
-          type: "POST",
+          method: "POST",
           url: "<?=base_url("login")?>",
           data: data,
           success: function (response) {
@@ -77,7 +78,7 @@
             };
           },
           error: function(jqXHR){
-            // console.log(jqXHR.status);
+            console.log(jqXHR.status);
             const errorResponse = JSON.parse(jqXHR.responseText);
             toastr.error(errorResponse.message);
             console.log(errorResponse.message);

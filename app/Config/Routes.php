@@ -36,6 +36,7 @@ $routes->post('login','MainController::login');
 //dashboard
 $routes->get('/dashboard','DashboardController::index');
 $routes->get('/dashboard/logout','DashboardController::logOut');
+$routes->get('/marketing/salesReport','Marketing::salesReport');
 
 /*
  * --------------------------------------------------------------------
